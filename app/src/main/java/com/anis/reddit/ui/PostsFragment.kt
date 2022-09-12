@@ -44,7 +44,6 @@ class PostsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         viewLifecycleOwner.lifecycleScope.launch {
             viewLifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
-                redditViewModel.fetchPosts()
                 redditViewModel.posts.collect {
                     redditAdapter = RedditPostAdapter{ commentUrl ->
                         redditViewModel.fetchComments(commentUrl)

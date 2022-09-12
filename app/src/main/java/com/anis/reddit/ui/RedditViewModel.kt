@@ -23,7 +23,7 @@ class RedditViewModel : ViewModel() {
     val comments: StateFlow<List<CommentsContainer>>
         get() = _comments.asStateFlow()
 
-    fun fetchPosts() {
+    init {
         try {
             val items = redditRepo.fetchPosts(RedditRepo.getRetrofitInstance()).cachedIn(viewModelScope)
             Log.d(TAG, "Posts received: $items")
