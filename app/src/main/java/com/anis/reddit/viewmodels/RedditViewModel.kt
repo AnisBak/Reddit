@@ -1,4 +1,4 @@
-package com.anis.reddit.ui
+package com.anis.reddit.viewmodels
 
 import android.util.Log
 import androidx.lifecycle.ViewModel

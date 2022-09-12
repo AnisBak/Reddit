@@ -12,6 +12,7 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.anis.reddit.databinding.FragmentPostsBinding
+import com.anis.reddit.viewmodels.RedditViewModel
 
 
 import kotlinx.coroutines.launch
