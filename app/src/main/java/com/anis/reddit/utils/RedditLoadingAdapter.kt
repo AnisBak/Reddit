@@ -1,5 +1,5 @@
 
-package com.anis.reddit.ui
+package com.anis.reddit.utils
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
