@@ -13,6 +13,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.anis.reddit.databinding.FragmentPostsBinding
 import com.anis.reddit.utils.RedditLoadingAdapter
+import com.anis.reddit.utils.RedditPostAdapter
 import com.anis.reddit.viewmodels.RedditViewModel
 
 

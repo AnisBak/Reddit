@@ -12,7 +12,6 @@ import com.anis.reddit.databinding.ItemLoadingStateBinding
 
 class LoadingStateViewHolder(private val binding: ItemLoadingStateBinding) :
     RecyclerView.ViewHolder(binding.root) {
-
     fun bindState(loadState: LoadState) {
         binding.progressBar.isVisible = loadState is LoadState.Loading
     }

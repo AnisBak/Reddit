@@ -1,4 +1,4 @@
-package com.anis.reddit.ui
+package com.anis.reddit.utils
 
 
 import android.view.LayoutInflater
@@ -10,7 +10,6 @@ import coil.load
 import com.anis.reddit.R
 import com.anis.reddit.databinding.PostItemBinding
 import com.anis.reddit.models.Post
-import com.anis.reddit.utils.DiffUtilCallBack
 
 
 class RedditPostViewHolder(private val binding: PostItemBinding) : RecyclerView.ViewHolder(binding.root) {
