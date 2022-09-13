@@ -11,6 +11,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.anis.reddit.databinding.FragmentCommentsBinding
+import com.anis.reddit.utils.RedditCommentAdapter
 import com.anis.reddit.viewmodels.RedditViewModel
 import kotlinx.coroutines.launch
 
